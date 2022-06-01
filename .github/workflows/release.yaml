@@ -8,7 +8,7 @@ name: Release
 
 jobs:
   release:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
 
     name: Release
     env:
