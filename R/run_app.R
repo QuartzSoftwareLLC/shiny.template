@@ -9,7 +9,6 @@ app_server <- function(input, output, session) {
     mod_main_server("main")
 }
 
-#' @importFrom shiny.quartz QCard Container Item QSelect.shinyInput make_options AcknowledgementCard
 app_ui <- function(request) {
     shiny.quartz::Page(
         "main",

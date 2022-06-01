@@ -2,10 +2,9 @@
 #'
 #' @noRd
 #' @importFrom shiny NS tagList
-#' @importFrom shiny.quartz QCard
 mod_main_ui <- function(id) {
     ns <- NS(id)
-    QCard(
+    shiny.quartz::QCard(
         title = "main",
     )
 }

@@ -10,7 +10,7 @@
             "request": "launch",
             "debugMode": "file",
             "workingDirectory": "${workspaceFolder}",
-            "file": "dev/run_dev.R"
+            "file": "./dev/run_dev.R"
         }  
     ]
 }
