@@ -16,7 +16,8 @@ app_ui <- function(request) {
     )
 }
 
-
+#' Run App
+#' Main function called in the app.R file to run the app
 #' @export
 run_app <- function() {
     shiny::shinyApp(
